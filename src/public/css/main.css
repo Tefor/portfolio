@@ -1,0 +1,285 @@
+body {
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+   font-family: 'Dancing Script', cursive;
+   font-size: 2em;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.mainParagraph {
+    font-size: 2em;
+}
+
+.secondParagraph {
+    font-size: 1.3em;
+}
+
+.thirdParagraph {
+    font-size: 1.2em;
+}
+
+ .dev-icons {
+    list-style: none;
+    text-align: center;
+   /* display: inline-flex;*/
+    
+} 
+
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(7448%) hue-rotate(215deg) brightness(117%) contrast(111%);
+}
+
+.dev-icons > li {
+    margin: 15px;   
+}
+
+.skills-img {
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.education-img {
+    height: 90px;
+}
+
+.dev-icons {
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+/*Floating Back-To-Top Button*/
+
+/* MEDIA QUERIES */
+/* Indicamos que para los dispositivos con un tamano maximo de 400 de ancho y < le aplique ciertos estilos */
+@media (max-width: 400px) { 
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .mainParagraph {
+        font-size: 1.1em;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .lplayer {
+        height: auto;
+        width: auto;
+    }
+
+    .redes {
+        display: row;
+        width: 100%;
+    }
+
+    .redes i {
+        text-align: center;
+    }
+
+    #skills {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .secondParagraph {
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    .dev-icons {
+        list-style: none;
+        text-align: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .sonda-img {
+        height: 55px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+
+    }
+
+    .acamica-img {
+        height: 55px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+
+    }
+
+
+    
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .mainParagraph, .secondParagraph, .thirdParagraph {
+        font-size: 1.3em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .otherParagraph {
+        text-align: center;
+    }
+
+    .lplayer {
+        height: auto;
+        width: auto;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dev-icons {
+        list-style: none;
+        text-align: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .sonda-img {
+        height: 50px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+
+    }
+
+    .acamica-img {
+        height: 55px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 902px) { 
+    
+    .sonda-img, .acamica-img {
+        height: 55px;
+
+    }
+
+    .botones {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
+
+    .mainParagraph {
+        font-size: 1.3em;
+    }
+
+    .secondParagraph {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (min-width: 903px) and (max-width: 1200px) {
+    
+    .botones {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
+
+    .mainParagraph {
+        font-size: 1.3em;
+    }
+
+    .secondParagraph {
+        font-size: 1.3em;
+    }
+}
+
+
+
+/* ICONOS */
+
+.icon-button i {
+    color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin: 0 5px 10px;
+    transition: .2s ease-in;
+}
+
+.google i {
+    background-color: #ea4335;
+}
+
+.linkedin i {
+    background-color: #0e76a8;
+}
+
+.github i {
+    background-color: #333;
+}
+
+.facebook i:hover, .github i:hover, .gitlab i:hover, .google i:hover, .instagram i:hover, .linkedin i:hover, .medium i:hover, .stack-overflow i:hover, .twitter i:hover {
+    background-color: #000;
+}
+
+.btn {
+    font-weight: bold;
+}
