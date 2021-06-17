@@ -126,7 +126,11 @@ h2 {
 
     }
 
-
+    .botones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
 
