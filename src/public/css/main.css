@@ -63,6 +63,47 @@ h2 {
     flex-wrap: wrap;
 }
 
+/* -webkit-box-shadow: 0px 2px 9px 0px rgba(48, 50, 50, 0.3);
+    -moz-box-shadow:    0px 2px 9px 0px rgba(48, 50, 50, 0.3);
+    box-shadow:         0px 2px 9px 0px rgba(48, 50, 50, 0.3);*/
+
+.sombras-card {
+    -webkit-box-shadow: -1px 0px 13px 0px #000000; 
+box-shadow: -1px 0px 13px 0px #000000; 
+    
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(48, 50, 50, 0.3);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(48, 50, 50, 0.3);
+    box-shadow: 0px 2px 9px 0px rgba(48, 50, 50, 0.3);
+  }
+  
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
 /*Floating Back-To-Top Button*/
 
 /* MEDIA QUERIES */
